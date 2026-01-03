@@ -28,7 +28,18 @@ Run the `SimpleDataFlow` scene locally (renders a low-quality preview):
 manim -pql src/scenes/SimpleDataFlow.py SimpleDataFlow
 ```
 
+For gif
+
+```bash
+manim -pql --format=gif src/scenes/SimpleDataFlow.py SimpleDataFlow
+```
+
 Replace `-pql` with `-pqh` or `-p` for higher-quality renders.
+
+Assignment output (gif): 
+
+![](media\videos\SimpleDataFlow\480p15\SimpleDataFlow_ManimCE_v0.19.1.gif)
+
 
 ## License
 
