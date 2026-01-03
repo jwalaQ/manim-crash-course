@@ -1,8 +1,6 @@
 from manim import *
 
 class DotTracker(Scene):
-    x = ValueTracker(0)
-
     def construct(self):
         x = ValueTracker(0)
 
