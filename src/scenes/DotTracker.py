@@ -14,7 +14,7 @@ class DotTracker(Scene):
         )
 
         label = always_redraw(
-            lambda: Text(f"x = {x.get_value():.1f}", font="Arial").next_to(dot, UP)
+            lambda: MathTex(f"x = {x.get_value():.1f}").next_to(dot, UP)
         )
 
         arrow = always_redraw(
@@ -24,6 +24,6 @@ class DotTracker(Scene):
         )
 
         self.add(dot, arrow, label)
-        self.play(x.animate.set_value(3))
+        self.play(x.animate.set_value(3), run_time=3)
         dot.clear_updaters()
         self.wait()
