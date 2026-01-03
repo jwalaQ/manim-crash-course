@@ -38,7 +38,7 @@ Replace `-pql` with `-pqh` or `-p` for higher-quality renders.
 
 Assignment output (gif): 
 
-![](media\videos\SimpleDataFlow\480p15\SimpleDataFlow_ManimCE_v0.19.1.gif)
+![](https://github.com/jwalaQ/manim-crash-course/blob/mainline/media/videos/SimpleDataFlow/480p15/SimpleDataFlow_ManimCE_v0.19.1.gif)
 
 
 ## License
