@@ -7,7 +7,7 @@ Small collection of Manim example scenes used for learning and demonstrations.
 I asked ChatGPT for: 
 > Crash course on manim. Common commands, common classes, stringing components together, customization - colours, animations, transitions.
 
-The summarized crash-course is available in [crash-course.md]()
+The summarized crash-course is available in [crash-course-notes.md](crash-course-notes.md)
 
 ### Requirements
 
